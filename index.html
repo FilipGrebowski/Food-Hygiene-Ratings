@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Food Hygiene Ratings</title>
+</head>
+<body>
+
+<div class="heading">
+
+    <div class="box-1">
+        <h1 id="title">Food Hygiene Ratings <span id="made-by">Created by Filip Grebowski</span></h1>
+    </div>
+
+    <div class="box-2"></div>
+
+    <div class="box-3" id="searchTable">
+        <input type="text" name="business" id="tags" placeholder="Enter Business Name">
+        <input type="submit" value="Find" id="input-button">
+    </div>
+
+</div>
+
+<div class="description-text">
+    <div class="button"><button id="back">Back</button></div>
+    <div class="text"><p>This page gathers all the businesses in Canterbury and displays their location,
+        their hygiene rating and the date the rating was taken.</p></div>
+</div>
+
+<div align="center">
+
+    <div id="navButtons"></div>
+
+    <table id="ratings" width="80%">
+        <tr>
+            <th>Business</th>
+            <th>Address</th>
+            <th>Hygiene</th>
+            <th>Date</th>
+            <th>Rating</th>
+        </tr>
+
+    </table>
+</div>
+
+<link href="https://fonts.googleapis.com/css?family=Roboto:300|Dancing+Script" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script type="text/javascript" src="functionality.js"></script>
+
+</body>
+</html>
